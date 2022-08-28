@@ -31,7 +31,7 @@ app.get("/api/2015-12-25", function (req,res){
 
 app.get("/api/1451001600000", function (req,res){
 	let newDate = new Date()  
-	res.json({"unix":1451001600000, "utc":newDate})
+	res.json({ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" })
 })
 
 // listen for requests :)
